@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function Sidebar(props) {
+    //console.log(props.notes)
     const noteElements = props.notes.map((note, index) => (
         <div key={note.id}>
             <div
